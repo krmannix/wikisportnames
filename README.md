@@ -1,21 +1,5 @@
 # Wikisportnames
 
-**TODO: Add description**
+A quick script to fetch some sports-related names from Wikipedia. The XPaths in use are pretty brittle - this isn't meant for long-term usage (though, if the XPaths change this script _shouldn't_ throw any errors, it'll just return less results).
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `wikisportnames` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:wikisportnames, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/wikisportnames](https://hexdocs.pm/wikisportnames).
-
+This will be used as input for another project.
