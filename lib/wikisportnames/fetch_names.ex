@@ -125,7 +125,7 @@ defmodule FetchNames do
 
 
   defp fetch_and_parse(path, xpath) do
-    Process.sleep(1000)
+    Process.sleep(200)
     HTTPoison.get!(@root <> path)
     |> get_response_body
     |> Meeseeks.parse
