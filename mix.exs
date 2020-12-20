@@ -30,7 +30,7 @@ defmodule Wikisportnames.MixProject do
 
   defp deps do
     [
-      {:floki, "~> 0.29.0"},
+      {:meeseeks, "~> 0.15.1"},
       {:httpoison, "~> 1.7"},
     ]
   end
