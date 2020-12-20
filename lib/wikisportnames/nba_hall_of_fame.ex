@@ -10,6 +10,7 @@ defmodule NbaHallOfFame do
   end
 
   defp make_request do
+    Process.sleep(1000)
     path = @root <> "/wiki/List_of_players_in_the_Naismith_Memorial_Basketball_Hall_of_Fame"
     HTTPoison.get!(path)
   end

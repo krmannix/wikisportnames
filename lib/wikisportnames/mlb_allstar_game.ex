@@ -36,6 +36,7 @@ defmodule MlbAllstarGame do
 
 
   defp fetch_and_parse(path, xpath) do
+    Process.sleep(1000)
     HTTPoison.get!(@root <> path)
     |> get_response_body
     |> Meeseeks.parse

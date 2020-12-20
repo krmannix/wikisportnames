@@ -10,6 +10,7 @@ defmodule NflHallOfFame do
   end
 
   defp make_request do
+    Process.sleep(1000)
     path = @root <> "/wiki/List_of_Pro_Football_Hall_of_Fame_inductees"
     HTTPoison.get!(path)
   end
